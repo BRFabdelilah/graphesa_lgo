@@ -9,7 +9,7 @@ G.add_nodes_from(range(1, 10))  # Nous avons 9 sommets
 
 # Ajout des arêtes au graphe
 edges = [(1, 2), (1, 6), (2, 3), (4, 2), (2, 5),(5, 6),
-         (3, 4), (3, 5), (4, 8), (4, 9), (6, 7), (7, 1)]  # J'ai corrigé cette arête pour faire un cycle complet
+         (3, 4), (3, 5), (4, 8), (4, 9), (6, 7), (7, 1)] 
 G.add_edges_from(edges)
 
 # Détection du cycle dans le graphe
